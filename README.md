@@ -1,5 +1,8 @@
 # 🧾 Task Management Application (React + Supabase)
 
+![Demo Preview](demo.gif)
+
+
 ## 🧩 Project Overview
 
 This project is a **Task Management Application** (Todo List) developed using **React**, **TypeScript**, **Bootstrap**, and **Supabase**.  
