@@ -45,7 +45,8 @@ The main objective is to demonstrate how to build a modern and responsive web ap
 
 The app follows a modular and organized folder structure:
 
-src/
+<pre>
+  src/
 ├── components/
 │ ├── TaskForm.tsx # Handles creating new tasks
 │ ├── TaskItem.tsx # Displays single task
@@ -56,6 +57,7 @@ src/
 │ └── supabase.ts # Initializes Supabase client
 ├── App.tsx # Main app logic and state management
 └── index.tsx # Entry point (React DOM rendering)
+</pre>
 
 
 🧱 Database Structure (Supabase)
