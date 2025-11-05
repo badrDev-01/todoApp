@@ -61,7 +61,7 @@ The app follows a modular and organized folder structure:
 </pre>
 
 
-🧠 Understanding the Main Files
+## 🧠 Understanding the Main Files
 🧩 TaskForm.tsx
 Handles the creation of new tasks:
 
@@ -91,7 +91,7 @@ createTask(title) → Inserts a new task
 toggleTask(id, is_done) → Updates task completion status
 deleteTask(id) → Deletes a task by ID
 Uses async/await and checks for errors from Supabase after each operation.
-🧱 Database Structure (Supabase)
+## 🧱 Database Structure (Supabase)
 
 The database contains a single table called tasks.
 
@@ -116,7 +116,7 @@ SQL Script:
 
 
 
-🔐 Supabase Concepts Explained
+## 🔐 Supabase Concepts Explained
 🧩 1. Supabase Client
 
 createClient() connects your app to Supabase using:
@@ -206,7 +206,7 @@ Toggling or deleting tasks works the same way — database updates first, UI sec
 
 Each arrow means data flow or function call.
 
-🎨 UI and UX
+## 🎨 UI and UX
 
 Bootstrap gives a modern and responsive design.
 
@@ -216,7 +216,7 @@ Smooth transitions (transition: all 0.3s ease) enhance user experience.
 
 Clear separation between Active Tasks and Completed Tasks.
 
-🚀 How to Run the Project <br/>
+#🚀 How to Run the Project <br/>
 1️⃣ Clone the repository
 ```git clone https://github.com/yourusername/task-app.git```
 
@@ -249,7 +249,7 @@ Add real-time updates (Supabase subscriptions).
 
 Include dark mode and better animations.
 
-🧠 Conclusion
+## 🧠 Conclusion
 
 This project successfully demonstrates how to build a complete frontend + backend application using React and Supabase.
 It shows how to connect a React app to a remote PostgreSQL database, perform CRUD operations, and handle data securely — all with minimal backend code.
