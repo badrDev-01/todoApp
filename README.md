@@ -216,22 +216,26 @@ Smooth transitions (transition: all 0.3s ease) enhance user experience.
 
 Clear separation between Active Tasks and Completed Tasks.
 
-🚀 How to Run the Project
+🚀 How to Run the Project <br/>
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/task-app.git
+```git clone https://github.com/yourusername/task-app.git```
 
 2️⃣ Install dependencies
-npm install
+```npm install```
 
 3️⃣ Add environment variables
 
 Create a .env file:
 
-VITE_SUPABASE_URL=your_url
-VITE_SUPABASE_ANON_KEY=your_key
+``` bash
+  VITE_SUPABASE_URL=your_url
+  VITE_SUPABASE_ANON_KEY=your_key
+```
 
 4️⃣ Run the project
+``` bsh
 npm run dev
+```
 
 💡 Future Improvements
 
