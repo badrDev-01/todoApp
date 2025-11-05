@@ -1,6 +1,7 @@
 # 🧾 Task Management Application (React + Supabase)
 
-![Demo Preview](demo.gif)
+![Demo](https://drive.google.com/uc?export=view&id=1ZBsMFYQrX3lKy3RuTg6jm6rSLO1UQk9y)
+
 
 
 ## 🧩 Project Overview
